@@ -1,9 +1,9 @@
 @echo off
 setlocal enabledelayedexpansion
 
-echo ================================
-echo   SINGLE AUDIO CONVERTER
-echo ================================
+echo ===========================================
+echo   Welcome To Audio File Converter By Gehans
+echo ===========================================
 echo.
 
 echo Available audio files:
@@ -25,7 +25,8 @@ if %count%==0 (
 )
 
 echo.
-set /p choice=Type the number of the file you want to convert: 
+set /p choice=Type the number of the file you want to convert:
+ 
 
 set "selected=!file[%choice%]!"
 set "selected_short=!file_short[%choice%]!"
@@ -36,7 +37,11 @@ if "%selected%"=="" (
     exit /b
 )
 
-set /p format=Enter output format (e.g. mp3, wav, flac, aac): 
+set /p format=Enter output format (e.g. mp3, wav, .etc):
+echo Pls do not choose a video format.
+echo Pls do not choose same format as input file.
+
+cls
 
 rem Get base name (without extension) from the long filename
 for %%B in ("!selected!") do (
@@ -49,6 +54,8 @@ echo.
 
 rem Use short path for input (handles weird characters), long name for output
 ffmpeg -y -i "!selected_short!" "!basename!.%format%"
+
+cls
 
 echo.
 echo Done.
