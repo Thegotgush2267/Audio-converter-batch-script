@@ -2,9 +2,10 @@
 This is a windows batch script that converts audio files using ffmpeg
 
 make sure you have ffmpeg installed
-Theres a folder Which has instructions on how to install ffmpeg
+Theres a folder named FFmpeg-Install Which has a script on how to install ffmpeg
+FFmpeg instalation done seperatelay is only needed for 1.0 and 1.1
 
-Once FFmpeg is installed make sure its added to path
+Once FFmpeg is installed make sure its added to path (Only Needed For 1.0 and 1.1)
 To do that:
 Open a NEW terminal 
 in that new terminal type  "ffmpeg -version"
