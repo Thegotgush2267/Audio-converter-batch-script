@@ -17,4 +17,4 @@ choose the audio file you need to convert
 
 Enjoy!
 
-NOTE; The "Software" only scans the folder its in and not the entire drive
+NOTE; The "Software" only scans the folder its in for the audio files and not the entire drive
