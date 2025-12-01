@@ -15,3 +15,5 @@ it will scan the folder you run it in for audio files
 choose the audio file you need to convert
 
 Enjoy!
+
+NOTE; The "Software" only scans the folder its in and not the entire drive
