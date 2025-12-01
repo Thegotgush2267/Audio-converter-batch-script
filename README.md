@@ -2,7 +2,7 @@
 This is a windows batch script that converts audio files using ffmpeg
 
 make sure you have ffmpeg installed
-Theres a folder Which has instructions on how to install ffmpeg
+in folder ffmeg-install run ffmpeginstall.bat
 
 Once FFmpeg is installed make sure its added to path
 To do that:
