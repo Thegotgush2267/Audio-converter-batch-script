@@ -1,22 +1,32 @@
-# Audio-converter-batch-script
-This is a windows batch script that converts audio files using ffmpeg
+# GehansConvert
+This is an application that lets you convert audio files **LOCALLY**
 
 make sure you have ffmpeg installed
 Theres a folder named FFmpeg-Install Which has a script on how to install ffmpeg
 FFmpeg instalation done seperatelay is only needed for 1.0 and 1.1
 
-Once FFmpeg is installed make sure its added to path (Only Needed For 1.0 and 1.1)
-To do that:
-Open a NEW terminal 
-in that new terminal type  "ffmpeg -version"
-if theres no errors youre good
+The version 1.3 (The Latest)
+Installs FFmpeg On MacOS
+FFmpeg Included In GehansConvert.exe
 
-Once ffmpeg is installed fully run the "Converter.bat"
-it will scan the folder you run it in for audio files
-choose the audio file you need to convert
+# Installation
 
-Enjoy!
+## Windows
 
-You Can Also Convert webm VIDEO files Into Audio or other video files But ONLY webm files
+Open The Application (GehansConvert.exe)
+Done Its Installed on Your PC
 
-NOTE; The "Software" only scans the folder its in for the audio files and not the entire drive
+## MacOS
+
+Open The disk image File (Gehansconvert.dmg)
+Drag The app icon into The application folder
+
+
+# Instructions (ID10T PROOF)
+
+Open the app (It may show a security warning ,Trust me bro Its Safe)
+select your file using the "BROWSE" Button in the app
+Select your output file type using the Dropdown Menu To your Left
+Select The Quality Using the Dropdown menu to your right
+Click the "CONVERT" button
+
